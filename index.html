@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+     <div class="container">   
+       <header>
+                 <img src="IMC.png" alt="imagem">
+       </header>
+       <nav>
+            <h2>Calculo IMC ( Índice de Massa Corporal)</h2>
+       </nav>
+       <section>
+            <div class="grupo1">
+                <label for="text">Inserir peso <strong>Kg</strong></label>
+                <input type="number" id="peso" value="peso">
+            </div>
+            <div class="grupo2">
+                <label for="text">Inserir altura <strong>alt</strong></label>
+                <input type="number" id="altura" value="altura">
+            <div class="grupo3">
+                <button class="btn1" onclick="clean()">Limpar</button>
+                <button onclick="calcular()" class="btn2">Calcular</button>
+            </div>
+            <div class="grupo4"> 
+                <p id="resultado">  </p>            
+            </div>
+       </section>
+       <footer>
+              <div class="lado1">
+                  <p class="titulo">IMC (Kg/m²)</p>
+                  <p id="mmAbaixo">Menor que 16.9</p>
+                  <p id="aabaixo">17 a 18,4</p>
+                  <p id="ppNormal">18,5 a 24,9</p>
+                  <p id="aacimaP">25 a 29,9</p>
+                  <p id="oobesidadeI">30 a 34,9</p>
+                  <p id="oobesidadeII">35 a 40</p>
+                  <p id="oobesidadeIII">Maior que 40</p>
+              </div>
+              <div class="lado2">
+                <p class="titulo">Classificação</p>
+                <p id="mAbaixo">Muito abaixo do peso</p>
+                <p id="abaixo">Abaixo do peso </p>
+                <p id="pNormal">Peso normal</p>
+                <p id="acimaP">Acima do peso</p>
+                <p id="obesidadeI">Obesidade grau I</p>
+                <p id="obesidadeII">Obesidade grau II</p>
+                <p id="obesidadeIII">Obesidade grau III</p>
+              </div>
+       </footer>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

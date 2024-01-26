@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.container{
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+header img{
+    width: 800px;
+    
+}
+
+nav{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: -4px;
+    text-align: center;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grupo1, .grupo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.grupo1 input{
+     width: 150px;
+     padding:8px ;
+ }
+
+.grupo2 input{
+    width: 150px;
+    padding: 8px;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.grupo3{
+    margin-top: 20px;
+}
+
+.grupo4{
+    margin-top: 50px;
+}
+.grupo3 button{
+    padding: 7px 20px 7px 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+
+
+
+.btn1:hover{
+   background-color: red;
+   color: white;
+   transition: all 0.45s;
+}
+
+.btn2:hover{
+    background-color: green;
+    color: white;
+    transition: all 0.45s;
+}
+
+section .grupo1, .grupo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    border: 1px solid black;
+    width: 180px;
+    margin: 0;
+    
+    padding:10px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer div{
+    display: inline-block;
+    margin-right: -1  px;
+}
+
+.titulo{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
